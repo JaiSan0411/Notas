@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import { Typography, Card, CardContent,CardActions,Button } from '@mui/material';
 import http_notes from '../api/notes';
 import Swal from 'sweetalert2';

@@ -1,8 +1,9 @@
+import { useEffect, useState } from "react";
 import { Typography, Card, CardContent, TextField, Button } from '@mui/material';
 import http_notes from '../api/notes';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
-
+import { useParams } from 'react-router-dom';
 function UpdateNote() {
     const { id } = useParams();
     const navigate = useNavigate();
